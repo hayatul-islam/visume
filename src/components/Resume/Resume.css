@@ -1,0 +1,21 @@
+.resume-info h1{
+    color: #010D82;
+    font-weight: 700;
+    font-size: 42px;
+    max-width: 430px;
+    line-height: 60px;
+}
+.resume-info .crowd{
+    color: #51C9FF;
+    font-size: 20px;
+}
+.resume-info .get-hired{
+    font-size: 18px;
+    max-width: 380px;
+    margin-top: 36px;
+    margin-bottom: 40px;
+}
+
+.link-btn{
+    background: #010D82;
+}
