@@ -7,7 +7,7 @@ const Resume = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div className="flex items-center">
                     <div className="resume-info">
-                        <p className="crowd">Stand out of the crowd</p>
+                        <p className="small-text-blue">Stand out of the crowd</p>
                         <h1>Create the Next Gen
                             Video Resume</h1>
                         <img src="https://i.ibb.co/KrnPr6N/path2987.png" alt="" />

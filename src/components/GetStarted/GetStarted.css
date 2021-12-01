@@ -1,0 +1,24 @@
+
+.getStarted-img{
+    position: relative;
+}
+.best-decision{
+    width: 255px;
+    position: absolute;
+    top: 110px;
+    right: 5%;
+}
+
+.content-writer{
+    width: 230px;
+    text-align: center;
+    position: absolute;
+    right: 25%;
+    top: 80%;
+}
+.content-writer img{
+    margin: 0 auto;
+}
+.content-writer i{
+    color: #FFC46B;
+}
