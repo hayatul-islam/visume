@@ -1,0 +1,12 @@
+.contact-form{
+    background-color: #51C9FF;
+    padding: 40px 0;
+}
+.contact-form .input-field input{
+    padding: 10px;
+    margin:10px 10px;
+    width: 45%;
+}
+.contact-form textarea{
+    width: 94%;
+}

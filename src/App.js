@@ -7,6 +7,8 @@ import './App.css';
 import GetStarted from './components/GetStarted/GetStarted';
 import About from './components/About/About';
 import Pricing from './components/Pricing/Pricing';
+import Testimonials from './components/Testimonials/Testimonials';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <GetStarted />
       <About />
       <Pricing />
+      <Testimonials />
+      <Contact />
     </div>
   );
 }
