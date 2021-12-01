@@ -1,0 +1,14 @@
+.footer{
+    background-color: #010D82;
+    color: white;
+}
+.footer h3{
+    font-size: 18px;
+    margin-bottom: 34px;
+}
+.footer p{
+    margin-bottom: 15px;
+}
+.social i{
+    padding-right: 10px;
+}
