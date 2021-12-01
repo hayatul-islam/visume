@@ -1,0 +1,20 @@
+.pricing-btn{
+    background-color: #fff;
+    color: #51C9FF;
+    border: 1px solid #51C9FF;
+}
+.pricing-btn:hover{
+    background-color: #51C9FF;
+    color: #010D82;
+}
+.single-box{
+    background: "#F8FBFE";
+    border-radius: 20px;
+}
+.single-box:hover{
+    background: #010D82;
+    color: white;
+}
+.single-box:hover h3{
+    color: white;
+}
