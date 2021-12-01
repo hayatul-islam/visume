@@ -22,3 +22,18 @@
 .content-writer i{
     color: #FFC46B;
 }
+
+.service{
+    height: 240px;
+    position: relative;
+}
+.service-id{
+    position: absolute;
+    top:-15px;
+    right:-10px;
+    background: #DEF5FF;
+    color: #51C9FF;
+    padding: 10px 12px;
+    border-radius: 50%;
+    font-weight: bold;
+}

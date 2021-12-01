@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './GetStarted.css';
 
 const GetStarted = () => {
+
+    const [services, setServices] = useState([]);
+    useEffect(() => {
+        fetch('services.json')
+            .then(res => res.json())
+            .then(data => setServices(data))
+    }, []);
+
     return (
         <div className="py-5 get-started">
             <p className="small-text-blue">Simple steps to glory</p>
@@ -37,7 +45,20 @@ const GetStarted = () => {
                     </div>
                 </div>
                 <div>
-
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {
+                            services.map(service => <div key={service?.id}>
+                                <div className="service shadow-xl m-3 px-5 bg-white round-lg">
+                                    <div className="pt-5">
+                                        <img src={service?.image} alt="" />
+                                    </div>
+                                    <h3 className="text-lg text-blue-800 font-bold pt-5 pb-2">{service?.title}</h3>
+                                    <p>{service?.description}</p>
+                                    <span className="service-id">{service?.id}</span>
+                                </div>
+                            </div>)
+                        }
+                    </div>
                 </div>
             </div>
         </div>

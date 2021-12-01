@@ -1,0 +1,26 @@
+[
+    {
+        "id": "01",
+        "image": "https://i.ibb.co/4tJGRjx/user-plus.png",
+        "title": "Create an account",
+        "description": "You need to create an account. You can do this by clicking on the Sign up button above."
+    },
+    {
+        "id": "02",
+        "image": "https://i.ibb.co/3hL4XhZ/user-plus-1.png",
+        "title": "Choose a theme",
+        "description": "Vertical, short or long. We give you the control to make your video resume. We’ve more than 150+ themes."
+    },
+    {
+        "id": "03",
+        "image": "https://i.ibb.co/MZc4MCx/film.png",
+        "title": "Edit on the Web",
+        "description": "Add your video clip(s), texts, decoration and effects. All these can be done on the web."
+    },
+    {
+        "id": "04",
+        "image": "https://i.ibb.co/55MwTGY/flag.png",
+        "title": "Ready to Fly",
+        "description": "You’re all set to get hired with flying colors now."
+    }
+]
