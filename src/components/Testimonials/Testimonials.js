@@ -18,7 +18,7 @@ const Testimonials = () => {
     };
 
     return (
-        <div id="testimonials" className="slider">
+        <div id="testimonials" className="slider px-8">
             <div className="pb-5">
                 <p className="small-text-blue">Social</p>
                 <h4 className="text-4xl text-blue-800 font-bold mt-3">What do our customers say?</h4>
@@ -27,7 +27,7 @@ const Testimonials = () => {
 
                 <div className="focus:outline-none shadow-lg rounded-lg mt-3 px-5">
                     <div className="py-6 mt-5 slider-container">
-                        <div>
+                        <div className="mb-6">
                             <img className="slider-img" src="https://i.ibb.co/SKFtf2m/Group-9.png" alt="" />
                         </div>
                         <div className="flex items-center">
@@ -41,7 +41,7 @@ const Testimonials = () => {
                 </div>
                 <div className="focus:outline-none shadow-lg rounded-lg mt-3 px-5">
                     <div className="py-6 mt-5 slider-container">
-                        <div>
+                        <div className="mb-6">
                             <img className="slider-img" src="https://i.ibb.co/JzKfZ7N/Group-18.png" alt="" />
                         </div>
                         <div className="flex items-center">
