@@ -8,7 +8,7 @@ const Resume = () => {
                 <div className="flex items-center">
                     <div className="resume-info">
                         <p className="small-text-blue">Stand out of the crowd</p>
-                        <h1>Create the Next Gen
+                        <h1 className="text-3xl md:text-5xl">Create the Next Gen
                             Video Resume</h1>
                         <img src="https://i.ibb.co/KrnPr6N/path2987.png" alt="" />
                         <p className="get-hired">Get hired quickly by giving your resume the
@@ -17,7 +17,7 @@ const Resume = () => {
                         <button className="text-blue-800 font-bold"><i className="far fa-play-circle"></i> Watch Demo</button>
                     </div>
                 </div>
-                <div>
+                <div className="pt-6">
                     <img src="https://i.ibb.co/bHQfPsp/Group-7.png" alt="" />
                 </div>
             </div>

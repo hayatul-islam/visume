@@ -1,7 +1,6 @@
 .resume-info h1{
     color: #010D82;
     font-weight: 700;
-    font-size: 42px;
     max-width: 430px;
     line-height: 60px;
 }
@@ -15,3 +14,9 @@
 .link-btn{
     background: #010D82;
 }
+
+@media only screen and (max-width: 767px) {
+    .resume-info h1{
+        line-height: 40px;
+    }
+  }
