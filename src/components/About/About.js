@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <div className="pt-6 mt-5 grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div id="about" className="pt-6 mt-5 grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div>
                 <p className="small-text-blue">We’re on a mission</p>
                 <h3 className="text-4xl text-blue-800 font-bold mt-3">About Visume</h3>
@@ -15,7 +15,7 @@ const About = () => {
                     <button className="text-blue-800 font-bold"><i className="far fa-play-circle"></i> Watch Demo</button>
                 </div>
             </div>
-            <div className="flex justify-end">
+            <div className="flex justify-center lg:justify-end">
                 <div className="about-image">
                     <img src="https://i.ibb.co/JzKfZ7N/Group-18.png" />
                     <div className="danny-mambo shadow py-5 px-2 rounded-lg">
