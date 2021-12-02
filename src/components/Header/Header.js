@@ -25,7 +25,7 @@ const Header = () => {
                                         )}
                                     </Disclosure.Button>
                                 </div>
-                                <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                                <div className="flex-1 flex items-center justify-end md:justify-center sm:items-stretch sm:justify-start">
                                     <div>
                                         <img src="https://i.ibb.co/gPZ4FJN/Group-8.png" alt="" />
                                     </div>
@@ -33,6 +33,7 @@ const Header = () => {
                                         <div className="flex space-x-4 text-white font-medium menubar">
                                             <a href="#about">About</a>
                                             <a href="#pricing">Pricing</a>
+                                            <a href="#testimonials">Testimonials</a>
                                             <a href="#contact">Contact</a>
                                         </div>
                                     </div>
@@ -90,13 +91,16 @@ const Header = () => {
                                     <a href="#pricing">Pricing</a>
                                 </div>
                                 <div className="bg-gray-900 text-white text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                                    <a href="#testimonials">Testimonials</a>
+                                </div>
+                                <div className="bg-gray-900 text-white text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                                     <a href="#contact">Contact</a>
                                 </div>
                                 <div className="bg-gray-900 text-white text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-                                    <a href="">Sign In</a>
+                                    <a href="#">Sign In</a>
                                 </div>
                                 <div className="bg-gray-900 text-white text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-                                    <a href="">Sign Up</a>
+                                    <a href="#">Sign Up</a>
                                 </div>
                             </div>
                         </Disclosure.Panel>

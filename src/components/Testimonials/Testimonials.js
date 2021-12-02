@@ -18,7 +18,7 @@ const Testimonials = () => {
     };
 
     return (
-        <div className="slider">
+        <div id="testimonials" className="slider">
             <div className="pb-5">
                 <p className="small-text-blue">Social</p>
                 <h4 className="text-4xl text-blue-800 font-bold mt-3">What do our customers say?</h4>
