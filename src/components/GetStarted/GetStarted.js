@@ -11,13 +11,15 @@ const GetStarted = () => {
     }, []);
 
     return (
-        <div className="py-5 get-started">
+        <div className="py-8 mt-5 px-8 get-started">
             <p className="small-text-blue">Simple steps to glory</p>
             <h1 className="text-4xl text-blue-800 font-bold mt-3">How to get started?</h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div className="py-8">
-                    <div className=" getStarted-img">
-                        <img src="https://i.ibb.co/SKFtf2m/Group-9.png" alt="" />
+                    <div className="getStarted-box">
+                        <div className="started-img">
+                            <img src="https://i.ibb.co/SKFtf2m/Group-9.png" alt="" />
+                        </div>
                         <div className="flex border shadow p-2 bg-white rounded-md best-decision">
                             <div className="bg-red-400 rounded-md py-2 px-3 mr-3">
                                 <i className="far fa-check-circle text-2xl text-white"></i>
@@ -45,7 +47,7 @@ const GetStarted = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-10 mt-10">
                         {
                             services.map(service => <div key={service?.id}>
                                 <div className="service shadow-xl m-3 px-5 bg-white round-lg">

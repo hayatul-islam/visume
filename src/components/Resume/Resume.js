@@ -13,7 +13,7 @@ const Resume = () => {
                         <img src="https://i.ibb.co/KrnPr6N/path2987.png" alt="" />
                         <p className="get-hired">Get hired quickly by giving your resume the
                             video look it deserves.</p>
-                        <button className="link-btn hover:bg-blue-800 text-white py-3 px-8 rounded mr-5">Get Started</button>
+                        <button className="link-btn hover:bg-blue-800 text-white py-3 px-8 rounded mr-8 mb-5">Get Started</button>
                         <button className="text-blue-800 font-bold"><i className="far fa-play-circle"></i> Watch Demo</button>
                     </div>
                 </div>

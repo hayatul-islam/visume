@@ -8,7 +8,7 @@ import './Header.css'
 const Header = () => {
 
     return (
-        <div className="py-7">
+        <div className="py-7 px-3">
             <Disclosure as="nav" className="bg-white-300">
                 {({ open }) => (
                     <>
