@@ -3,8 +3,8 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="footer pt-7 pb-3 px-7">
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
+        <div className="footer pt-7 pb-3 px-8">
+            <div className="grid grid-cols-1 grid-cols-2 md:grid-cols-4 gap-4">
                 <div>
                     <img className="mb-7" src="https://i.ibb.co/683FPpm/Group-8-2.png" alt="" />
                     <span>2238 Partha Elen Street,</span><br />
@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <h3>Subscribe to Newsletter</h3>
-                    <input className="mb-3 py-2 px-3 rounded-lg" type="email" placeholder="Email" />
+                    <input className="mb-3 py-2 ps-2 mr-2 rounded-lg" type="email" placeholder="Email" />
                     <p>help@visume.link</p>
                     <p>396-987 456 885</p>
                 </div>
