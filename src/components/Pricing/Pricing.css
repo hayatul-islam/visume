@@ -12,7 +12,8 @@
     border-radius: 20px;
 }
 .single-box:hover{
-    background: #010D82;
+    transition: background-color 2s, transform 2s;
+    background-color: #010D82;
     color: white;
 }
 .single-box:hover h3{

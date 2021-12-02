@@ -3,13 +3,13 @@ import './Pricing.css';
 
 const Pricing = () => {
     return (
-        <div id="pricing">
+        <div id="pricing" className="px-8 pt-10 mt-10">
             <div>
                 <p className="small-text-blue">Pricing</p>
                 <h3 className="text-4xl text-blue-800 font-bold mt-3">How much to pay?</h3>
                 <p className="mt-3">You can choose the most app pricing option for your needs.</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="single-box py-5 shadow px-4 text-center mt-6">
                     <div className="pt-3">
                         <h3 className="text-2xl text-blue-800 font-bold">Basic</h3>
@@ -96,6 +96,14 @@ const Pricing = () => {
                             <div className="flex items-center mt-3">
                                 <img className="w-5 h-5 mr-3" src="https://i.ibb.co/TkTy3cy/check-circle.png" alt="" />
                                 <span>24/7 Priority Support</span>
+                            </div>
+                            <div className="flex items-center mt-3">
+                                <img className="w-5 h-5 mr-3" src="https://i.ibb.co/TkTy3cy/check-circle.png" alt="" />
+                                <span>9+ language Support</span>
+                            </div>
+                            <div className="flex items-center mt-3">
+                                <img className="w-5 h-5 mr-3" src="https://i.ibb.co/TkTy3cy/check-circle.png" alt="" />
+                                <span>Email Support</span>
                             </div>
                             <div className="flex items-center mt-3">
                                 <img className="w-5 h-5 mr-3" src="https://i.ibb.co/TkTy3cy/check-circle.png" alt="" />
